@@ -1,0 +1,13 @@
+{
+  "host": "${process.env.GITPOD_WORKSPACE_URL || 'localhost'}",
+  "port": "${process.env.GITPOD_WORKSPACE_URL ? '' : '1337'}",
+  "proxy": {
+    "enabled": false
+  },
+  "cron": {
+    "enabled": false
+  },
+  "admin": {
+    "autoOpen": false
+  }
+}
